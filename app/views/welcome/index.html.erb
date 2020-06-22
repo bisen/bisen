@@ -1,4 +1,4 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<%= javascript_pack_tag 'p5_test' %>
+<div id='p5-container'>
+  <vue-p5 v-on="{ mouseclicked, draw, setup }"></vue-p5>
+</div>
